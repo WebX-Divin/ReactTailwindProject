@@ -1,4 +1,19 @@
-/* src/styles.css */
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+/* styles.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.noto-serif-display-uniquifier {
+  font-family: "Noto Serif Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500; /* Replace <weight> with the desired font weight */
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.hedvig-letters-serif-uniquifier {
+  font-family: "Hedvig Letters Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

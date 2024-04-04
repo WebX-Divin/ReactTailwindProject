@@ -1,17 +1,16 @@
+
 import React from 'react';
+import Header from './components/Header';
 import Hero from './components/Hero';
-// import Benefits from './components/Benefits';
-import Testimonial from './components/Testimonial';
-import CallToAction from './components/CallToAction';
+import './App.css';
+import './styles.css';
 
 function App() {
   return (
     <div>
-   <Hero />
-   <Testimonial />
-   <CallToAction />
-   {/* <Benefits /> */}
-    </div>
+      <Header />
+      <Hero />
+    </div>  
   );
 }
 
