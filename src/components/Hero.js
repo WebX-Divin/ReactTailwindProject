@@ -1,23 +1,22 @@
 import React from 'react';
 
-
 const Hero = () => {
   return (
-    <div className="bg-custom-blue h-screen flex flex-col justify-center items-center">
-        <div className="text-center">
-        <h1 className="hedvig-letters-serif-uniquifier font-bold text-white text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl text-center">
-    Fuel great thinking.
-</h1>
-
-          <p className="text-lg text-white mb-8 font-sans">
-            Become a Medium member to enjoy unlimited access and directly
-            support the writers you read most.
-          </p>
-          <button className="bg-white text-black font-sans py-1.5 px-8 rounded-full text-bold">
-            Get unlimited access
-          </button>
-        </div>
+    <div className="flex flex-col justify-center items-center py-16 md:py-20 lg:py-24 xl:py-32 border-b-2 border-white">
+      <div className="text-center">
+        <h1 className="hedvig-letters-serif-uniquifier font-bold text-white text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-center">
+          Fuel great thinking.
+        </h1>
+        <p className="text-xl text-white mb-2 font-sans py-5 px-10">
+          Become a Medium member to enjoy unlimited access and
+          <br />
+          directly support the writers you read most.
+        </p>
+        <button className="bg-white text-black font-sans py-1.5 px-12 rounded-full text-bold text-lg">
+          Get unlimited access
+        </button>
       </div>
+    </div>
   );
 };
 

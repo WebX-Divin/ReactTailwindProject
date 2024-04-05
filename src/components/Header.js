@@ -21,7 +21,7 @@ const Header = () => {
 
   return (
     <div>
-      <nav className="bg-custom-blue flex items-center justify-between px-4 sm:px-6 md:px-10 py-4 sm:py-5 border-b-2 border-white">
+      <nav className="flex items-center justify-between px-4 sm:px-6 md:px-10 py-4 sm:py-5 border-b-2 border-white">
 
         <div className="flex items-center">
           <img
