@@ -7,7 +7,7 @@ const BodySection = () => {
     <div className="mt-8 px-4 md:px-6">
       <div className="flex flex-col md:flex-row">
         <div className="flex-1 p-6">
-          <h2 className="mb-4 text-white hedvig-letters-serif-uniquifier text-4xl">
+          <h2 className="mb-4 text-white hedvig-letters-serif-uniquifier text-2xl md:text-4xl">
             Get unlimited access to every
             <br />
             story.
@@ -58,7 +58,7 @@ const BodySection = () => {
           <p className="text-white text-sm">MMMMMMMMMMMMMMM</p>
 
           <p className="text-white text-sm">MMMMMMMMMMMMMMMM</p>
-          <p className="text-white text-xl font-sans mt-8">
+          <p className="text-white text-sm mt-8">
             Read any article in our entire library across all your devices --
             with no paywalls, story, limits or ads
           </p>
@@ -123,7 +123,7 @@ const BodySection = () => {
             &nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;MM&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M
           </p>
           <p className="text-white text-sm">MMMMMMMMMMMMMMMMMMMMMMMMMMM</p>
-          <p className="text-white text-xl font-sans mt-10">
+          <p className="text-white text-sm mt-8">
             A portion of your membership will directly support the writers and
             thinkers you read the most
           </p>

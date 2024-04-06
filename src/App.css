@@ -8,3 +8,15 @@
 body {
   background-color: #4578ff;
 }
+
+.explore-text {
+  position: absolute;
+  left: 0;
+  margin-left: 0;
+}
+
+.explore-text-right {
+  position: absolute;
+  right: 0;
+  margin-right: 0;
+}
