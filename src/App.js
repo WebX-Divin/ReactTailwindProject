@@ -1,18 +1,23 @@
-
-import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import FeatureSection from './components/FeatureSection';
-import './App.css';
-import './styles.css';
+import React from "react";
+import "./App.css";
+import "./styles.css";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import BodySection from "./components/BodySection";
+import FeatureSection from "./components/FeatureSection";
+import Explore from "./components/ExploreSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
       <Header />
       <Hero />
+      <BodySection />
       <FeatureSection />
-    </div>  
+      <Explore />
+      <Footer />
+    </div>
   );
 }
 

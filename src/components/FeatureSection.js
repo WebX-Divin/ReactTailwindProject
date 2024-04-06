@@ -1,122 +1,36 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import feature from "../assets/feature_logo.png";
 import "../styles.css";
 import "../App.css";
 
 const FeatureSection = () => {
   return (
-    <div className="mt-8 px-6">
-      <div className="flex">
-        <div className="flex-1 p-8">
-          <h2 className="mb-4 text-white hedvig-letters-serif-uniquifier text-4xl">
-            Get unlimited access to every
-            <br />
-            story.
-          </h2>
-
-          <p className="text-white text-sm mt-8">
-            MMMMMMMMMMMMMMM&nbsp;&nbsp;MMMMMM&nbsp;&nbsp;MMMM&nbsp;&nbsp;M
-          </p>
-
-          <p className="text-white text-sm">
-            MMMMMMMMMMMMMM&nbsp;&nbsp;MMMMMM&nbsp;&nbsp;MMMMM&nbsp;M&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;M
-          </p>
-
-          <p className="text-white text-sm">
-            MMMMMMMMMMMMM&nbsp;&nbsp;&nbsp;MMMMM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MMMMM
-          </p>
-
-          <p className="text-white text-sm">
-            MMMMMMMMMMMMMMM&nbsp;&nbsp;MMMMMM&nbsp;&nbsp;MMMMM&nbsp;M&nbsp;&nbsp;M
-          </p>
-
-          <p className="text-white text-sm">
-            MMMMMMMMMMMMMMM&nbsp;&nbsp;&nbsp;MMMMMM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MMMM&nbsp;&nbsp;M
-          </p>
-
-          <p className="text-white text-sm">
-            MMMMMMMMMMMMMM&nbsp;&nbsp;MMMMMMM&nbsp;&nbsp;MMMMM&nbsp;M
-          </p>
-
-          <p className="text-white text-sm">
-            MMMMMMMMMMMMMMM&nbsp;&nbsp;MMMMM&nbsp;&nbsp;&nbsp;MMMMMM
-          </p>
-
-          <p className="text-white text-sm">
-            MMMMMMMMMMMMMMMM&nbsp;&nbsp;MMMMMM
-          </p>
-
-          <p className="text-white text-sm">
-            MMMMMMMMMMMMMMM&nbsp;&nbsp;MMMMMM
-          </p>
-
-          <p className="text-white text-sm">
-            MMMMMMMMMMMMMMMM&nbsp;&nbsp;MMMMMM
-          </p>
-
-          <p className="text-white text-sm">MMMMMMMMMMMMMMMM</p>
-
-          <p className="text-white text-sm">MMMMMMMMMMMMMMM</p>
-
-          <p className="text-white text-sm">MMMMMMMMMMMMMMMM</p>
-          <p className="text-white text-xl font-sans mt-8">
-            Read any article in our entire library across all your devices --
-            with no paywalls, story, limits or ads
-          </p>
+    <div className="mt-8 px-4 md:px-6 bg-custom-white">
+      <div className="flex flex-col justify-center items-center p-6">
+        <p className="hedvig-letters-serif-uniquifier text-3xl md:text-4xl text-center mb-4">
+          Why I'm a Medium Member...
+        </p>
+        <div className="flex flex-col md:flex-row items-center">
+          <img
+            src={feature}
+            alt="Feature"
+            className="w-48 h-48 md:w-72 md:h-72 mr-0 md:mr-8 mb-4 md:mb-0"
+          />
+          <div className="ml-0 md:ml-8 flex-auto">
+            <p className="text-base md:text-lg">
+              "I love Medium's membership -- it gives me <br /> access to the
+              stories I love by the writers I love, <br /> and it allows me to
+              help support those writers <br /> financially."
+            </p>
+            <p className=" hedvig-letters-serif-uniquifier text-base md:text-xl">
+              Kayt Molina
+            </p>
+          </div>
         </div>
-        <div className="flex-1 p-8 border-l-2">
-          <h2 className="text-4xl mb-4 text-white hedvig-letters-serif-uniquifier">
-            Support the voices you want
-            <br />
-            to hear more from.
-          </h2>
-
-          <p className="text-white text-sm">
-            &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;
-            &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;M
-          </p>
-          <p className="text-white text-sm">
-            &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-            &nbsp;M &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;
-            &nbsp;&nbsp;M
-          </p>
-          <p className="text-white text-sm">
-            &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;M&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-            &nbsp;M &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;M&nbsp; &nbsp;
-            &nbsp;&nbsp;&nbsp;M
-          </p>
-          <p className="text-white text-sm">
-            &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-            &nbsp;M&nbsp;&nbsp; &nbsp; &nbsp;M&nbsp;&nbsp;
-            &nbsp;&nbsp;M&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;M &nbsp;&nbsp;
-            &nbsp;&nbsp;M&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;M
-          </p>
-          <p className="text-white text-sm">
-            &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;M&nbsp; &nbsp; M&nbsp;M&nbsp;
-            M&nbsp; M&nbsp; &nbsp; M&nbsp; &nbsp; M&nbsp;&nbsp; M&nbsp;&nbsp;
-            M&nbsp;&nbsp; M
-          </p>
-          <p className="text-white text-sm">
-            &nbsp; &nbsp;
-            &nbsp;&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M
-          </p>
-          <p className="text-white text-sm">
-            &nbsp;
-            &nbsp;&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;
-          </p>
-          <p className="text-white text-sm">
-            &nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;MM&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M
-          </p>
-          <p className="text-white text-sm">MMMMMMMMMMMMMMMMMMMMMMMMMMM</p>
-          <p className="text-white text-xl font-sans mt-8">
-            A portion of your membership will directly support the writers and
-            thinkers you read the most
-          </p>
-        </div>
+        <FontAwesomeIcon icon={faArrowRight} className="mt-4" />
       </div>
-      <div className="px-6"></div>
     </div>
   );
 };
