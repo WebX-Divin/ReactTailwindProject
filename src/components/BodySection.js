@@ -108,8 +108,9 @@ const BodySection = () => {
             &nbsp;&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M
           </p>
           <p className="text-white text-1">
-            &nbsp; &nbsp;&nbsp; &nbsp;
-            &nbsp;&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M
+            &nbsp; &nbsp;&nbsp;
+            &nbsp;&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M
+            M
           </p>
 
           <p className="text-white text-1">

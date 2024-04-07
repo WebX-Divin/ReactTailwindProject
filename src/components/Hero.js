@@ -8,7 +8,7 @@ const Hero = () => {
           Fuel great thinking.
         </h1>
 
-        <p className="text-white mt-4 text-center sm:text-xs md:text-sm lg:text-xl xl:text-xl">
+        <p className="text-white mt-4 text-center sm:text-xs md:text-sm lg:text-md xl:text-xl">
           Become a Medium member to enjoy unlimited access and
           <br />
           directly support the writers you read most.

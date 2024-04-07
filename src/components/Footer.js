@@ -14,7 +14,7 @@ const Footer = () => {
             className="h-3 sm:h-7 w-auto mr-4 sm:mr-0"
           />
           <span className="text-black sm:ml-20 lg:ml-96">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Every
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Every
             idea needs a Medium
           </span>
         </div>
