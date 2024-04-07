@@ -27,7 +27,7 @@ const FeatureSection = () => {
             <p className="hedvig-letters-serif-uniquifier text-base md:text-xl mt-4">
               Kayt Molina
             </p>
-            <FontAwesomeIcon icon={faArrowRight} className="mt-4" />
+            <FontAwesomeIcon icon={faArrowRight} className="mt-4 ml-8" />
           </div>
         </div>
       </div>
