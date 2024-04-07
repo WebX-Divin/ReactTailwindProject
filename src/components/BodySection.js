@@ -4,7 +4,7 @@ import "../App.css";
 
 const BodySection = () => {
   return (
-    <div className="mt-8 px-4">
+    <div className="mt-8 px-4 pb-8">
       <div className="flex flex-col md:flex-row">
         <div className="flex-1 p-6">
           <h2 className="mb-4 text-white hedvig-letters-serif-uniquifier text-2xl md:text-4xl">
@@ -63,7 +63,7 @@ const BodySection = () => {
             with no paywalls, story, limits or ads
           </p>
         </div>
-        <div className="flex-1 p-6 md:border-l-2 md:pl-8 flex-col md:flex-row ">
+        <div className="flex-1 p-6 md:border-l-2 md:pl-8 flex-col md:flex-row  ">
           <h2 className="text-2xl md:text-4xl mb-4 text-white hedvig-letters-serif-uniquifier">
             Support the voices you want
             <br />
@@ -82,25 +82,26 @@ const BodySection = () => {
             &nbsp;&nbsp;M
           </p>
           <p className="text-white text-1">
-            &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;M&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-            &nbsp;M &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;M&nbsp; &nbsp;
-            &nbsp;&nbsp;&nbsp;M
+            &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;M&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;M&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;M&nbsp; &nbsp;
+            &nbsp;&nbsp;M
           </p>
           <p className="text-white text-1">
-            &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-            &nbsp;M&nbsp;&nbsp; &nbsp; &nbsp;M&nbsp;&nbsp;
-            &nbsp;&nbsp;M&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;M &nbsp;&nbsp;
-            &nbsp;&nbsp;M&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;M
+            &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+            &nbsp;M&nbsp;&nbsp; &nbsp;M&nbsp;&nbsp; &nbsp;M &nbsp; &nbsp;M
+            &nbsp;&nbsp; &nbsp;M&nbsp;&nbsp; &nbsp;M
           </p>
           <p className="text-white text-1">
-            &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;M&nbsp; &nbsp; M&nbsp;M&nbsp;
-            M&nbsp; M&nbsp; &nbsp; M&nbsp; &nbsp; M&nbsp;&nbsp; M&nbsp;&nbsp;
-            M&nbsp;&nbsp; M
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp; &nbsp;M&nbsp;
+            &nbsp;M&nbsp;&nbsp;&nbsp;M&nbsp;&nbsp;&nbsp; M&nbsp;&nbsp;M&nbsp;
+            &nbsp; M&nbsp; &nbsp; M&nbsp;&nbsp; M
           </p>
           <p className="text-white text-1">
-            &nbsp; &nbsp;
-            &nbsp;&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M
+            &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+            &nbsp;&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M&nbsp;M
           </p>
           <p className="text-white text-1">
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;

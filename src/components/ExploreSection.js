@@ -25,7 +25,7 @@ const Explore = () => {
           Take your mind <br />
           in new directions.
         </h1>
-        <button className="bg-black text-white font-sans py-1.5 px-12 rounded-full text-bold text-lg mt-8">
+        <button className="bg-black text-white font-sans py-2 px-6 sm:py-2 sm:px-8 rounded-full text-bold text-base sm:text-lg mt-5">
           Get unlimited access
         </button>
 
@@ -68,7 +68,7 @@ const Explore = () => {
                 VER DISCOVER DISCOVER DISCOVER
               </p>
               <p className="text-black text-1 mt-16 explore-text-right font-sans">
-                EXPLORE EXPLORE EXPLORE EXPLORE EX
+                EXPLORE EXPLORE EXPLORE EXPLORE
               </p>
             </div>
             <div>
@@ -153,7 +153,7 @@ const Explore = () => {
                 VER DISCOVER DISCOVER DISCOVER
               </p>
               <p className="text-black text-3 mt-16 explore-text-right font-sans">
-                EXPLORE EXPLORE EXPLORE EXPLORE EX
+                EXPLORE EXPLORE EXPLORE EXPLORE
               </p>
             </div>
             <div>
